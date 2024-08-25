@@ -1,0 +1,64 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      helpful-decorators:
+        specifier: ^2.1.0
+        version: 2.1.0
+    devDependencies:
+      typescript:
+        specifier: ^5.5.4
+        version: 5.5.4
+
+packages:
+
+  helpful-decorators@2.1.0:
+    resolution: {integrity: sha512-RiJEDqSD5c7zmNbx0EgcOvHMOu793Q5M51Q8lS+EHtBmxVE89s95ScMg0bLmLqMl2mA+JEU6WfXkyGLcdYb0wg==}
+
+  lodash.debounce@4.0.8:
+    resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
+
+  lodash.delay@4.1.1:
+    resolution: {integrity: sha512-HDMACn/aGuz6PNBbzf2V9FKL/Rb2Vv+hSEvicdZA4JAT5o5m0rbQn4Xw62VdTzG2HRu74PInzku98fz8GQlNJg==}
+
+  lodash.memoize@4.1.2:
+    resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
+
+  lodash.once@4.1.1:
+    resolution: {integrity: sha512-Sb487aTOCr9drQVL8pIxOzVhafOjZN9UU54hiN8PU3uAiSV7lx1yYNpbNmex2PK6dSJoNTSJUUswT651yww3Mg==}
+
+  lodash.throttle@4.1.1:
+    resolution: {integrity: sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==}
+
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  helpful-decorators@2.1.0:
+    dependencies:
+      lodash.debounce: 4.0.8
+      lodash.delay: 4.1.1
+      lodash.memoize: 4.1.2
+      lodash.once: 4.1.1
+      lodash.throttle: 4.1.1
+
+  lodash.debounce@4.0.8: {}
+
+  lodash.delay@4.1.1: {}
+
+  lodash.memoize@4.1.2: {}
+
+  lodash.once@4.1.1: {}
+
+  lodash.throttle@4.1.1: {}
+
+  typescript@5.5.4: {}
