@@ -1,0 +1,11 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "a http server created with the help of native nodejs modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "\"Vivek Rawani\"",
+  "license": "ISC"
+}
